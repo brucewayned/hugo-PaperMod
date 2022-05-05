@@ -15,7 +15,9 @@
 .logo,
 #menu {
     display: flex;
-    margin: auto var(--gap);
+    margin: 5px;
+    margin-left: 10px;
+    /* margin: auto var(--gap); */
 }
 
 .logo {

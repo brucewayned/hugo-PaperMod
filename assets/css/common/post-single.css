@@ -1,6 +1,15 @@
 .page-header,
+
+.back-button {
+    margin: auto 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--secondary);
+}
+
 .post-header {
     margin: 24px auto var(--content-gap) auto;
+    margin-top: 5px;
 }
 
 .post-title {
@@ -150,13 +159,13 @@
 }
 
 .post-content .highlight table {
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
 }
 
 .post-content .highlight:not(table) {
     margin: 10px auto;
     background: var(--hljs-bg) !important;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     direction: ltr;
 }
 
@@ -208,7 +217,7 @@
     padding: 10px;
     color: rgb(213, 213, 214);
     background: var(--hljs-bg) !important;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     overflow-x: auto;
     word-break: break-all;
 }
@@ -260,7 +269,7 @@
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
     background: var(--code-bg);
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     padding: 0.4em;
 }
 
@@ -308,7 +317,7 @@
 .post-tags a,
 .share-buttons,
 .paginav {
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
     background: var(--code-bg);
     border: 1px solid var(--border);
 }
@@ -330,7 +339,7 @@
 
 .share-buttons {
     margin: 14px 0;
-    padding-inline-start: var(--radius);
+    /* padding-inline-start: var(--radius); */
     display: flex;
     justify-content: center;
     overflow-x: auto;
@@ -394,13 +403,13 @@ h6:hover .anchor {
     margin: 10px 0;
     display: flex;
     line-height: 30px;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
 }
 
 .paginav a {
     padding-inline-start: 14px;
     padding-inline-end: 14px;
-    border-radius: var(--radius);
+    /* border-radius: var(--radius); */
 }
 
 .paginav .title {
