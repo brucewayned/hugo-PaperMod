@@ -61,10 +61,14 @@
                         {{- end }}
                     {{- end }}
                     <img src="{{ $img.Permalink }}" alt="logo" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        height="{{- site.Params.label.iconHeight | default "30" -}}"
+                        width="{{- site.Params.label.iconWidth | default "100" -}}"
+                        >
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="logo" aria-label="logo"
-                    height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    height="{{- site.Params.label.iconHeight | default "30" -}}"
+                    width="{{- site.Params.label.iconWidth | default "100" -}}"
+                    >
                 {{- end -}}
                 {{- end -}}
                 <!-- {{- $label_text -}} -->
