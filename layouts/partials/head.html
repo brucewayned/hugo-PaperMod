@@ -1,3 +1,4 @@
+{{- partial "adsense-inarticle.html" . -}}
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -149,7 +150,6 @@
 {{ if not .Site.IsServer }}
     {{- template "_internal/google_analytics.html" . }}
 {{ end }}
-{{- partial "adsense-inarticle.html" . -}}
 {{- template "partials/templates/opengraph.html" . }}
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
