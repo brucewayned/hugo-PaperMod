@@ -1,3 +1,12 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+<footer class="footer">
+<span> 
+    <a href="{{ with .Site.Params.footer.aboutus }} {{ . }}{{ end }}">About Us</a>    &ensp;
+    <a href="{{ with .Site.Params.footer.contactus }} {{ . }}{{ end }}">Contact Us</a>  &ensp;
+    <a href="{{ with .Site.Params.footer.disclaimer }} {{ . }}{{ end }}">Disclaimer</a>  &ensp;
+    <a href="{{ with .Site.Params.footer.privacypolicy }} {{ . }}{{ end }}">Privacy Policy</a>  &ensp;
+
+</span>
+</footer>
